@@ -6,7 +6,7 @@ Using function, try/except, match etc
 Explanantion:
 <br>
 This part defines the function to do addition, subtraction, average, multiplication and division <br>
-The functions have the parameter numbers
+The functions have the parameter as numbers
 <br>
 There is a list which stores the numbers given by the user in the list number_list <br>
 The next part is to take the user input (ask them what operation they want to perform or they can exit the program if they want to bgy entering an alphabet)
