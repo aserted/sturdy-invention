@@ -57,11 +57,11 @@ if select in (1, 2, 3, 4, 5):
     a = print("Enter the numbers whose operate on:")
     while True:
         try:
-            number = input("enter the numbers here: ")
-            if number == "":
+            input_number = input("enter the numbers here: ")
+            if input_number == "":
                 break # break out of the loop if no number is given
             else:
-                number_list.append(float((number)))
+                number_list.append(float((input_number)))
         except ValueError:
             print("you have enterd an alphabet so the program has been terminated")
             exit()
