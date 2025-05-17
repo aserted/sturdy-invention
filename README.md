@@ -8,31 +8,8 @@ explanantion:
 This part defines the function to do addition, subtraction, average, multiplication and division <br>
 the functions have the parameter numbers
 <br>
-number_list = []
-def add(numbers):
-     return sum(numbers) 
-
-# Function to substract two numbers 
-def minus(numbers):
-    result = numbers[0]
-    for num in numbers[1:]:
-        result -= num
-    return result
-
-# Function to multiply two numbers 
-def multiply(numbers):
-    result = numbers[0]
-    for num in numbers[1:]:
-        result *= num
-    return result
-
-# Function to divide two numbers 
-def divid(numbers):
-    result = numbers[0]
-    for num in numbers[1:]:
-        result /= num
-    return result
-
-# Function to average two numbers 
-def average(numbers):
-    return sum(numbers)/len(number_list)
+There is a list which stores the numbers given by the user in the list number_list <br>
+The next part is to take the user input (ask them what operation they want to perform or they can exit the program if they want to bgy entering an alphabet)
+<br>
+if the user enters what they want to do the the program asks them to enter the numbers on which they want to perform the operations on <br>
+then after getting the input from user the numbers are stored in number_list as an argument which is passed through the function parameters
