@@ -14,3 +14,8 @@ The next part is to take the user input (ask them what operation they want to pe
 If the user enters what they want to do the the program asks them to enter the numbers on which they want to perform the operations on <br>
 Then after getting the input from user the numbers are appended in number_list as an argument which is passed through the function parameters <br>
 Afetr the user has enterd all the numbers they wanted to now the program uses match case to match the operation the user wants to perform and gives the output
+# Second Program
+Created a OOP base calss system with inherentence <br>
+Used student_list to store the instances<br>
+Used itx and enumerate to iterate through the list and output the student details<br>
+Took the input reagarding the students form the user<br>
